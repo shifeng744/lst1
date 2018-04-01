@@ -27,22 +27,22 @@ namespace NavShare
                     List<Article> News = new List<Article>();
                     News.Add(new Article
                     {
-                        PicUrl = "https://shifeng744.github.io/lst1/img/a3.jpg",
-                        Url = "https://shifeng744.github.io/lst1/index.aspx",
+                        PicUrl = "http://weixingongzhonghao-1.apphb.com/img/a3.jpg",
+                        Url = "http://weixingongzhonghao-1.apphb.com/index.aspx",
                         Title = "李胜涛 男 20150301215"
                     });
                     News.Add(new Article
                     {
-                        PicUrl = "https://shifeng744.github.io/lst1/img/a1.jpg",
+                        PicUrl = "http://weixingongzhonghao-1.apphb.com/img/a1.jpg",
                         Description = "ViewNav页面",
-                        Url = "https://shifeng744.github.io/lst1/ViewNav.aspx",
+                        Url = "http://weixingongzhonghao-1.apphb.com/ViewNav.aspx",
                         Title = "访问记录统计"
                     });
                     News.Add(new Article
                         {
-                            PicUrl = "https://shifeng744.github.io/lst1/img/a2.jpg",
+                            PicUrl = "http://weixingongzhonghao-1.apphb.com/img/a2.jpg",
                             Description = "ViewNav页面",
-                            Url = "https://shifeng744.github.io/lst1/ViewShare.aspx",
+                            Url = "http://weixingongzhonghao-1.apphb.com/ViewShare.aspx",
                             Title = "访问记录统计"
                         });
                     

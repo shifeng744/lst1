@@ -108,7 +108,7 @@ namespace Sample_3
                     {
                         var msg = CreateResponseMessage<ResponseMessageNews>();
                         var r = User.Info(Wx.accessToken, requestMessage.FromUserName);
-                        msg.Articles.Add(new Article { Description = string.Format("{0},欢迎你，我是文俊豪 20150301123 男", r.nickname) });
+                        msg.Articles.Add(new Article { Description = string.Format("{0},欢迎你，我是李胜涛 20150301215 男", r.nickname) });
                         msg.Articles.Add(new Article
                         {
                             Title = string.Format("你的微信号是{0}", r.openid),
@@ -123,13 +123,13 @@ namespace Sample_3
         protected override IResponseMessageBase OnEvent_SubscribeRequest(RequestMessageEvent_Subscribe requestMessage)
         {
             var responseMessage = CreateResponseMessage<ResponseMessageText>();
-            responseMessage.Content = @"文俊豪 男 应用1班 20150301123 身高170 体重60kg";
+            responseMessage.Content = @"李胜涛 男 应用2班 20150301215 爱好吃饭";
             return responseMessage;
         }
         protected override IResponseMessageBase OnEvent_UnsubscribeRequest(RequestMessageEvent_Unsubscribe requestMessage)
         {
             var responseMessage = base.CreateResponseMessage<ResponseMessageText>();
-            responseMessage.Content = "拜拜";
+            responseMessage.Content = "88";
             return responseMessage;
         }
     }

@@ -17,10 +17,10 @@ namespace NavShare
         {
             ButtonGroup bg = new ButtonGroup();
             bg.button.Add(new SingleClickButton { name = "关于", key = "wxOpenID", type = "click" });
-            bg.button.Add(new SingleViewButton { name = "NSIndex", url = "https://shifeng744.github.io/lst1/NavShareIndex.aspx?s=system" });
+            bg.button.Add(new SingleViewButton { name = "NSIndex", url = "http://weixingongzhonghao-1.apphb.com/NavShareIndex.aspx?s=system" });
             var bg2 = new SubButton() { name = "二级菜单" };//二级菜单
-            bg2.sub_button.Add(new SingleViewButton { name = "新闻", url = "https://shifeng744.github.io/lst1/sendnews.aspx" });
-            bg2.sub_button.Add(new SingleViewButton { name = "ViewShare", url = "https://shifeng744.github.io/lst1/ViewShare.aspx" });
+            bg2.sub_button.Add(new SingleViewButton { name = "新闻", url = "http://weixingongzhonghao-1.apphb.com/sendnews.aspx" });
+            bg2.sub_button.Add(new SingleViewButton { name = "ViewShare", url = "http://weixingongzhonghao-1.apphb.com/ViewShare.aspx" });
             bg.button.Add(bg2);
 
             var r = Meun.CreateMenu(Wx.accessToken, bg);
